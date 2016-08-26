@@ -1,4 +1,4 @@
-
+#
 def is_valid_label(label):
     """
     Determine if the input label matches the requirements:
@@ -14,7 +14,6 @@ def is_valid_label(label):
             return False
     return True
 
-
 def test_is_valid_label():
     false_test_cases = ["label1", "invalid", "Abc"]
     true_test_cases = ["Label1", "Valid56", "Abcd6"]
@@ -24,6 +23,5 @@ def test_is_valid_label():
 
     for case in true_test_cases:
         print("{} is {}".format(case, is_valid_label(case)))
-
 
 test_is_valid_label()

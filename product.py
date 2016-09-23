@@ -16,4 +16,7 @@ class Product:
         :param percentage: like 15 for 15%
         :return: None
         """
+        pass
+
+
 

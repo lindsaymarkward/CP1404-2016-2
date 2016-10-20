@@ -18,5 +18,10 @@ class Product:
         """
         pass
 
+if __name__ == '__main__':
+    p = Product()
+    assert not p.is_on_sale
+    p.put_on_sale(10)
+    assert p.is_on_sale
 
 
